@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="{{=T.accepted_language or 'en'}}"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <!-- www.phpied.com/conditional-comments-block-downloads/ -->
+    <!-- Always force latest IE rendering engine
+         (even in intranet) & Chrome Frame
+         Remove this if you use the .htaccess -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge{{=not request.is_local and ',chrome=1' or ''}}">
+    <!--  Mobile Viewport Fix
+          j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
+          device-width: Occupy full width of the screen in its current orientation
+          initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+          user-scalable = yes allows the user to zoom in -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{=response.title or request.application}}</title>
+    <!-- http://dev.w3.org/html5/markup/meta.name.html -->
+    <meta name="application-name" content="{{=request.application}}">
+    <!-- Speaking of Google, don't forget to set your site up:
+         http://google.com/webmasters -->
+    <meta name="google-site-verification" content="">
+    <!-- include stylesheets -->
+    <link rel="stylesheet" href="{{=URL('static','css/bootstrap.min.css')}}"/>
+    <!-- <link rel="stylesheet" href="{{=URL('static','css/web2py-bootstrap3.css')}}"/> -->
+    <link rel="stylesheet" href="{{=URL('static','ionicons/css/ionicons.min.css')}}">
+    <!-- main css -->
+    <link rel="stylesheet" href="{{=URL('static','css/style.css')}}" >
+    <!-- including fitters styles -->
+    <!-- <link rel="stylesheet" href="{{=URL('static','css/fitters.css')}}"/> -->
+    <link rel="shortcut icon" href="{{=URL('static','images/favi_red.png')}}" type="image/x-icon">
+    <link rel="apple-touch-icon" href="{{=URL('static','images/favi_red.png')}}">
+    <!-- All JavaScript at the bottom, except for Modernizr which enables
+         HTML5 elements & feature detects -->
+    <script src="{{=URL('static','js/modernizr-2.8.3.min.js')}}"></script>
+    <!-- <script src="{{=URL('static','js/modernizr.js')}}"></script> -->
+    <!--[if lt IE 9]>
+        <script src="{{=URL('static','js/respond-1.4.2.min.js')}}"></script>
+        <![endif]-->
+    <!-- Favicons -->
+    {{include 'web2py_ajax.html'}} <!-- this includes jquery.js, calendar.js/.css and web2py.js -->
+    {{block head}}{{end}}
+
+  </head>
+  <!-- <body background="{{=URL('static','images/finalbg.png') }}" style="background-size: 100%; background-repeat: repeat-y;"> -->
+  <body>
+
+    <!--[if lt IE 8]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+    <div class="w2p_flash alert alert-dismissable">{{=response.flash or ''}}</div>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+
+    <div class="container-fluid">
+        <!-- box header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <a href="{{=URL('default', 'index')}}"><img src="{{=URL('static','images/new_logo2.png')}}" alt="Fitters Logo" ></a>
+                <!-- style="width:5%;" -->
+                <!-- {{=response.logo or ''}} -->
+            </div>
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+            <!-- box-primary-nav-trigger -->
+        </header>
+        <!-- end box header -->
+
+        <!-- Navbar ======================================= -->
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                <li class="box-label">MENU</li>
+
+                <li><a href="{{=URL('default', 'index')}}">Home</a> <i class="ion-ios-circle-filled color"></i></li>
+                <li><a href="{{=URL('default', 'men')}}">Men</a></li>
+                <li><a href="{{=URL('default', 'women')}}">Women</a></li>
+                <li><a href="{{=URL('default', 'mini')}}">Mini</a></li>
+                <li><a href="{{=URL('default', 'unstitched')}}">Unstitched</a></li>
+                <li><a href="{{=URL('default', 'accessories')}}">Accessories</a></li>
+                <li><a href="{{=URL('default', 'business')}}">Business</a></li>
+                <li><a href="{{=URL('default', 'overseas')}}">Overseas</a></li>
+                <li><a href="{{=URL('default', 'prices')}}">Prices</a></li>
+                <li><a href="{{=URL('default', 'offers')}}">Offers</a></li>
+                <li><a href="{{=URL('default', 'quickorder')}}">Quick Order</a></li>
+                <li><a href="{{=URL('default', 'videos')}}">Videos</a></li>
+
+                <!-- <li class="box-label">Follow us</li>
+
+                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
+                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li> -->
+            </ul>
+        </nav>
+        <!-- end nav -->
+
+    <!-- Masthead ===================================== -->
+    {{block header}}
+    {{end}}
+    <!-- Main ========================================= -->
+    <!-- Begin page content -->
+
+    <!-- <div class="container-fluid" > -->
+      <!-- style="border: 2px solid blue; " -->
+      <!-- <div class="" > -->
+
+        {{include}}
+
+      <!-- </div> -->
+
+    <!-- </div> -->
+
+    {{block footer}} <!-- this is default footer -->
+    <!-- footer -->
+    <!-- <footer>
+        <div class="container-fluid">
+            <p class="copyright">{{=T('Copyright')}} &#169; {{=request.now.year}}</p>
+        </div>
+    </footer> -->
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-sm-3">
+                    <h2 class="logo"><a href="#" onclick="return false"><i class="ion-android-call"></i>.. Call </a></h2>
+                    <h5 class="logo"><a href="tel:(+92) 3111-222-745"> (+92) 3111-222-745 </a></h2>
+                </div> -->
+                <div class="col-sm-2">
+                    <h5><i class="ion-android-call"></i> Phone</h5>
+                    <ul>
+                        <!-- <li><i class="ion-android-call"></i>.. Call</li> -->
+                        <li><a href="tel:(+92) 3111-222-745"> (+92) 3111-222-745 </a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Services</h5>
+                    <ul>
+                        <li><a href="{{=URL('default', 'quickorder')}}">Quick Order</a></li>
+                        <li><a href="{{=URL('default', 'business')}}">Business</a></li>
+                        <li><a href="{{=URL('default', 'overseas')}}">Overseas</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Overview</h5>
+                    <ul>
+                        <li><a href="{{=URL('default', 'about')}}">About</a></li>
+                        <li><a href="{{=URL('default', 'videos')}}">Videos</a></li>
+                        <li><a href="{{=URL('default', 'jobs')}}">Jobs</a></li>
+                        <li><a href="{{=URL('default', 'faq')}}">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Leagal</h5>
+                    <ul>
+                        <li><a href="{{=URL('default', 'terms')}}">Terms</a></li>
+                        <li><a href="{{=URL('default', 'privacy')}}#">Privacy</a></li>
+                        <li><a href="{{=URL('default', 'cancelation')}}">Cancelation</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="ion-social-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="ion-social-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="ion-social-instagram-outline"></i></a>
+                    </div>
+                    <!-- <button type="button" class="btn btn-default"> Contact us</button> -->
+                    <a href="{{=URL('default', 'cancelation')}}"><button type="button" class="btn btn-default"> Contact us</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p><i class="ion-home"></i> Address </p>
+            <p>Office FF-121, Divine Mega-II Center, Airport Road, near Bhatta Chowk, D.H.A
+               Lahore, Pakistan, 54500</p>
+            <p>{{=T('Copyright')}} &#169;{{=request.now.year}} Fitters. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    {{end}}
+
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+    <!-- The javascript =============================== -->
+    <script src="{{=URL('static','js/jquery-2.1.1.js')}}"></script>
+    <script src="{{=URL('static','js/bootstrap.min.js')}}"></script>
+    <script src="{{=URL('static','js/web2py-bootstrap3.js')}}"></script>
+
+    <script src="{{=URL('static','js/menu.js')}}"></script>
+    <script src="{{=URL('static','js/animated-headline.js')}}"></script>
+    <script src="{{=URL('static','js/isotope.pkgd.min.js')}}"></script>
+    <!--  custom script -->
+    <script src="{{=URL('static','js/custom.js')}}"></script>
+
+    {{block page_js}}{{end page_js}}
+    {{if response.google_analytics_id:}}
+    <!-- Analytics ==================================== -->
+    <script src="{{=URL('static','js/analytics.min.js')}}"></script>
+    <script type="text/javascript">
+      analytics.initialize({
+      'Google Analytics':{trackingId:'{{=response.google_analytics_id}}'}
+      });
+    </script>
+    {{pass}}
+    <!-- Share ============================y============ -->
+    <!-- <script src="{{=URL('static','js/share.js',vars=dict(static=URL('static','images')))}}"></script> -->
+  </body>
+</html>

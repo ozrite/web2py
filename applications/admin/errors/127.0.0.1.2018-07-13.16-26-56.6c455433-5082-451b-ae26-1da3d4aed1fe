@@ -1,0 +1,861 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.UnicodeDecodeError'> 'utf8' codec can't decode byte 0x89 in position 0: invalid start byte"
+p3
+sS'layer'
+p4
+S'/Users/asad/Documents/workspace/web2py/applications/admin/controllers/default.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 0x10d0485b0, file "/Users/asad/Documents/workspace/web2py/applications/admin/controllers/default.py", line 3>'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__getslice__'
+p12
+S"<method-wrapper '__getslice__' of exceptions.UnicodeDecodeError object>"
+p13
+sS'encoding'
+p14
+S"'utf8'"
+p15
+sS'__str__'
+p16
+S"<method-wrapper '__str__' of exceptions.UnicodeDecodeError object>"
+p17
+sS'__reduce__'
+p18
+S'<built-in method __reduce__ of exceptions.UnicodeDecodeError object>'
+p19
+sS'__dict__'
+p20
+S'{}'
+p21
+sS'__sizeof__'
+p22
+S'<built-in method __sizeof__ of exceptions.UnicodeDecodeError object>'
+p23
+sS'message'
+p24
+S"''"
+p25
+sS'__init__'
+p26
+S"<method-wrapper '__init__' of exceptions.UnicodeDecodeError object>"
+p27
+sS'__setattr__'
+p28
+S"<method-wrapper '__setattr__' of exceptions.UnicodeDecodeError object>"
+p29
+sS'__reduce_ex__'
+p30
+S'<built-in method __reduce_ex__ of exceptions.UnicodeDecodeError object>'
+p31
+sS'end'
+p32
+S'1'
+sS'__new__'
+p33
+S'<built-in method __new__ of type object>'
+p34
+sS'__format__'
+p35
+S'<built-in method __format__ of exceptions.UnicodeDecodeError object>'
+p36
+sS'__class__'
+p37
+S"<type 'exceptions.UnicodeDecodeError'>"
+p38
+sS'start'
+p39
+S'0'
+sS'__doc__'
+p40
+S"'Unicode decoding error.'"
+p41
+sS'object'
+p42
+S"'\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82'"
+p43
+sS'__getitem__'
+p44
+S"<method-wrapper '__getitem__' of exceptions.UnicodeDecodeError object>"
+p45
+sS'__setstate__'
+p46
+S'<built-in method __setstate__ of exceptions.UnicodeDecodeError object>'
+p47
+sS'__getattribute__'
+p48
+S"<method-wrapper '__getattribute__' of exceptions.UnicodeDecodeError object>"
+p49
+sS'args'
+p50
+S"('utf8', '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 0, 1, 'invalid start byte')"
+p51
+sS'reason'
+p52
+S"'invalid start byte'"
+p53
+sS'__subclasshook__'
+p54
+S'<built-in method __subclasshook__ of type object>'
+p55
+sS'__unicode__'
+p56
+S'<built-in method __unicode__ of exceptions.UnicodeDecodeError object>'
+p57
+sS'__delattr__'
+p58
+S"<method-wrapper '__delattr__' of exceptions.UnicodeDecodeError object>"
+p59
+sS'__repr__'
+p60
+S"<method-wrapper '__repr__' of exceptions.UnicodeDecodeError object>"
+p61
+sS'__hash__'
+p62
+S"<method-wrapper '__hash__' of exceptions.UnicodeDecodeError object>"
+p63
+ssS'evalue'
+p64
+S"'utf8' codec can't decode byte 0x89 in position 0: invalid start byte"
+p65
+sS'request'
+p66
+cgluon.html
+XML_unpickle
+p67
+(S's\x1ad\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>admin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>Fitters</div></td></tr><tr><td><div>static</div></td></tr><tr><td><div>original250px.png</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>default</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-116b6d37-5d7f-4ce9-b491-ff442f8fd5c1<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_fitters</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-7f8e4e6c-d7b1-4a69-b697-c127605936a5<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-eca21740-9b8f-41e1-9f11-7a864c00e307<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-472ccdb8-babd-4203-8f09-c6e3fd86abd8<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>application/json, text/javascript, */*; q=0.01</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.5</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=127.0.0.1-472ccdb8-babd-4203-8f09-c6e3fd86abd8; session_id_admin=127.0.0.1-116b6d37-5d7f-4ce9-b491-ff442f8fd5c1; session_id_test=127.0.0.1-eca21740-9b8f-41e1-9f11-7a864c00e307; session_id_fitters=127.0.0.1-7f8e4e6c-d7b1-4a69-b697-c127605936a5</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_REFERER</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/admin/default/edit/Fitters/static/original250px.png?id=static</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:61.0) Gecko/20100101 Firefox/61.0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_X_REQUESTED_WITH</td><td style="vertical-align:top;">:</td><td><div>XMLHttpRequest</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/admin/default/edit/Fitters/static/original250px.png</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div>id=static</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>62559</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>Asads-MacBook-Pro.local</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/Users/asad/Documents/workspace/web2py/applications/Fitters/&#x27;, &#x27;/Users/asad/Documents/workspace/web2py/applications/welcome/&#x27;, &#x27;/Users/asad/Documents/workspace/web2py/applications/admin/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/asad/Documents/workspace/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x105fb83f8: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;Asads-MacBook-Pro.local&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/Users/asad/Documents/workspace/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/asad/Documents/workspace/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>application/json, text/javascript, */*; q=0.01</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.5</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_welcome=127.0.0.1-472ccdb8-babd-4203-8f09-c6e3fd86abd8; session_id_admin=127.0.0.1-116b6d37-5d7f-4ce9-b491-ff442f8fd5c1; session_id_test=127.0.0.1-eca21740-9b8f-41e1-9f11-7a864c00e307; session_id_fitters=127.0.0.1-7f8e4e6c-d7b1-4a69-b697-c127605936a5</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_referer</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/admin/default/edit/Fitters/static/original250px.png?id=static</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:61.0) Gecko/20100101 Firefox/61.0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_x_requested_with</td><td style="vertical-align:top;">:</td><td><div>XMLHttpRequest</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>fe80::14c2:5914:1595:17fd%en0</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>1.0.0.127.in-addr.arpa</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>Asads-MacBook-Pro.local</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/admin/default/edit/Fitters/static/original250px.png</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div>id=static</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>62559</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/admin/default/edit/Fitters/static/original250px.png?id=static</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>Asads-MacBook-Pro.local</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/Users/asad/Documents/workspace/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.15.2-stable+timestamp.2017.07.19.12.18.41</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x1051e51e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x105f81328&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x10dfa2f50&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x1051e51e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x105f81328&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x10dfa2f50&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/Users/asad/Documents/workspace/web2py/applications/admin/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>edit</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/Users/asad/Documents/workspace/web2py/applications/Fitters/&#x27;, &#x27;/Users/asad/Documents/workspace/web2py/applications/welcome/&#x27;, &#x27;/Users/asad/Documents/workspace/web2py/applications/admin/&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/asad/Documents/workspace/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x105fb83f8: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;Asads-MacBook-Pro.local&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/Users/asad/Documents/workspace/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [&#x27;&#x27;], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/asad/Documents/workspace/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>fe80::14c2:5914:1595:17fd%en0</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>1.0.0.127.in-addr.arpa</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>Asads-MacBook-Pro.local</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.15.2-stable+timestamp.2017.07.19.12.18.41</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_scheduler</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_shell</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2018, 7, 13, 16, 26, 56, 69077)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div>Fitters/static/original250px.png</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/admin/default/edit/Fitters/static/original250px.png</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2018, 7, 13, 11, 26, 56, 69086)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x10dc96310&gt;</div></td></tr></table></div>'
+tRp68
+sS'frames'
+p69
+(lp70
+(dp71
+S'file'
+p72
+S'/Users/asad/Documents/workspace/web2py/gluon/restricted.py'
+p73
+sS'dump'
+p74
+(dp75
+S'environment'
+p76
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'gluon.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'A_button': <function A_button>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, 'CAT': <class 'gluon.html.CAT'>, ...}"
+p77
+sS'ccode'
+p78
+S'<code object <module> at 0x10d0485b0, file "/Use...plications/admin/controllers/default.py", line 3>'
+p79
+ssS'lnum'
+p80
+I219
+sS'lines'
+p81
+(dp82
+I214
+S'    if environment is None:'
+p83
+sI215
+S'        environment = {}'
+p84
+sI216
+S"    environment['__file__'] = layer"
+p85
+sI217
+S"    environment['__name__'] = '__restricted__'"
+p86
+sI218
+S'    try:'
+p87
+sI219
+S'        exec(ccode, environment)'
+p88
+sI220
+S'    except HTTP:'
+p89
+sI221
+S'        raise'
+p90
+sI222
+S'    except RestrictedError:'
+p91
+sI223
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p92
+ssS'call'
+p93
+S'(ccode=<code object <module> at 0x10d0485b0, file "/Use...plications/admin/controllers/default.py", line 3>, environment={\'A\': <class \'gluon.html.A\'>, \'ANY_OF\': <class \'gluon.validators.ANY_OF\'>, \'ASSIGNJS\': <function ASSIGNJS>, \'A_button\': <function A_button>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, \'CAT\': <class \'gluon.html.CAT\'>, ...}, layer=\'/Users/asad/Documents/workspace/web2py/applications/admin/controllers/default.py\')'
+p94
+sS'func'
+p95
+S'restricted'
+p96
+sa(dp97
+g72
+S'/Users/asad/Documents/workspace/web2py/applications/admin/controllers/default.py'
+p98
+sg74
+(dp99
+sg80
+I2006
+sg81
+(dp100
+I1995
+S'        else:'
+p101
+sI1996
+S'            filename = "web2py.plugin.%s.w2p" % cleanpath(plugin)'
+p102
+sI1997
+S'        if plugin_install(app, urlopen(source),'
+p103
+sI1998
+S'                          request, filename):'
+p104
+sI1999
+S"            session.flash = T('New plugin installed: %s', filename)"
+p105
+sI2000
+S'        else:'
+p106
+sI2001
+S'            session.flash = \\'
+p107
+sI2002
+S'                T(\'unable to install plugin "%s"\', filename)'
+p108
+sI2003
+S'        redirect(URL(f="plugins", args=[app, ]))'
+p109
+sI2004
+S'    return dict(form=form, app=app, plugin=plugin, source=source)'
+p110
+ssg93
+S'()'
+p111
+sg95
+S'<module>'
+p112
+sa(dp113
+g72
+S'/Users/asad/Documents/workspace/web2py/gluon/globals.py'
+p114
+sg74
+(dp115
+S'self'
+p116
+S'undefined'
+p117
+sS'f'
+S'<function edit>'
+p118
+ssg80
+I409
+sg81
+(dp119
+I404
+S"        self.flash = ''            # used by the default view layout"
+p120
+sI405
+S'        self.meta = Storage()      # used by web2py_ajax.html'
+p121
+sI406
+S'        self.menu = []             # used by the default view layout'
+p122
+sI407
+S'        self.files = []            # used by web2py_ajax.html'
+p123
+sI408
+S'        self._vars = None'
+p124
+sI409
+S'        self._caller = lambda f: f()'
+p125
+sI410
+S'        self._view_environment = None'
+p126
+sI411
+S'        self._custom_commit = None'
+p127
+sI412
+S'        self._custom_rollback = None'
+p128
+sI413
+S"        self.generic_patterns = ['*']"
+p129
+ssg93
+S'(f=<function edit>)'
+p130
+sg95
+S'<lambda>'
+p131
+sa(dp132
+g72
+S'/Users/asad/Documents/workspace/web2py/applications/admin/controllers/default.py'
+p133
+sg74
+(dp134
+S'global response'
+p135
+S"<Storage {'body': <cStringIO.StringO object at 0...a> at 0x108e58c80>, 'view': 'default/edit.html'}>"
+p136
+sS'response.json'
+p137
+S"<bound method Response.json of <Storage {'body':...> at 0x108e58c80>, 'view': 'default/edit.html'}>>"
+p138
+sS'file_details'
+p139
+S"{'app': 'Fitters', 'controller': None, 'data': '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 'edit_controller': None, 'editor_settings': {'closetag': 'true', 'codefolding': 'false', 'editor': 'default', 'highlightline': 'true', 'indentwithtabs': 'false', 'linenumbers': 'true', 'tabwidth': '4', 'theme': 'web2py'}, 'editviewlinks': None, 'file_hash': 'c81d4b2cd060d5d39367cb31d15412de', 'filename': 'Fitters/static/original250px.png', 'filetype': 'html', 'force': False, ...}"
+p140
+ssg80
+I841
+sg81
+(dp141
+I836
+S"        file_details['plain_html'] = plain_html"
+p142
+sI837
+S'        if is_mobile:'
+p143
+sI838
+S"            return response.render('default.mobile/edit.html',"
+p144
+sI839
+S'                                   file_details, editor_settings=preferences)'
+p145
+sI840
+S'        else:'
+p146
+sI841
+S'            return response.json(file_details)'
+p147
+sI842
+S''
+sI843
+S''
+sI844
+S'def todolist():'
+p148
+sI845
+S'    """ Returns all TODO of the requested app'
+p149
+ssg93
+S'()'
+p150
+sg95
+S'edit'
+p151
+sa(dp152
+g72
+S'/Users/asad/Documents/workspace/web2py/gluon/globals.py'
+p153
+sg74
+(dp154
+S'default'
+p155
+S'None'
+p156
+sS'global custom_json'
+p157
+S'<function custom_json>'
+p158
+sS'global json'
+p159
+S'<function json>'
+p160
+sS'data'
+p161
+S"{'app': 'Fitters', 'controller': None, 'data': '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 'edit_controller': None, 'editor_settings': {'closetag': 'true', 'codefolding': 'false', 'editor': 'default', 'highlightline': 'true', 'indentwithtabs': 'false', 'linenumbers': 'true', 'tabwidth': '4', 'theme': 'web2py'}, 'editviewlinks': None, 'file_hash': 'c81d4b2cd060d5d39367cb31d15412de', 'filename': 'Fitters/static/original250px.png', 'filetype': 'html', 'force': False, ...}"
+p162
+sS'indent'
+p163
+S'None'
+p164
+ssg80
+I651
+sg81
+(dp165
+I646
+S'        return self.stream(stream, chunk_size=chunk_size, request=request)'
+p166
+sI647
+S''
+sI648
+S'    def json(self, data, default=None, indent=None):'
+p167
+sI649
+S"        if 'Content-Type' not in self.headers:"
+p168
+sI650
+S"            self.headers['Content-Type'] = 'application/json'"
+p169
+sI651
+S'        return json(data, default=default or custom_json, indent=indent)'
+p170
+sI652
+S''
+sI653
+S'    def xmlrpc(self, request, methods):'
+p171
+sI654
+S'        from gluon.xmlrpc import handler'
+p172
+sI655
+S'        """'
+p173
+ssg93
+S"(self=<Storage {'body': <cStringIO.StringO object at 0...a> at 0x108e58c80>, 'view': 'default/edit.html'}>, data={'app': 'Fitters', 'controller': None, 'data': '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 'edit_controller': None, 'editor_settings': {'closetag': 'true', 'codefolding': 'false', 'editor': 'default', 'highlightline': 'true', 'indentwithtabs': 'false', 'linenumbers': 'true', 'tabwidth': '4', 'theme': 'web2py'}, 'editviewlinks': None, 'file_hash': 'c81d4b2cd060d5d39367cb31d15412de', 'filename': 'Fitters/static/original250px.png', 'filetype': 'html', 'force': False, ...}, default=None, indent=None)"
+p174
+sg95
+S'json'
+p175
+sa(dp176
+g72
+S'/Users/asad/Documents/workspace/web2py/gluon/serializers.py'
+p177
+sg74
+(dp178
+S'global json_parser'
+p179
+S"<module 'json' from '/System/Library/Frameworks/...rk/Versions/2.7/lib/python2.7/json/__init__.pyc'>"
+p180
+sS'indent'
+p181
+S'None'
+p182
+sS'default'
+p183
+S'<function custom_json>'
+p184
+sS'builtinTrue'
+p185
+S'True'
+p186
+sS'value'
+p187
+S"{'app': 'Fitters', 'controller': None, 'data': '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 'edit_controller': None, 'editor_settings': {'closetag': 'true', 'codefolding': 'false', 'editor': 'default', 'highlightline': 'true', 'indentwithtabs': 'false', 'linenumbers': 'true', 'tabwidth': '4', 'theme': 'web2py'}, 'editviewlinks': None, 'file_hash': 'c81d4b2cd060d5d39367cb31d15412de', 'filename': 'Fitters/static/original250px.png', 'filetype': 'html', 'force': False, ...}"
+p188
+sS'json_parser.dumps'
+p189
+S'<function dumps>'
+p190
+sS'sort_keys'
+p191
+g117
+ssg80
+I123
+sg81
+(dp192
+I118
+S"def xml(value, encoding='UTF-8', key='document', quote=True):"
+p193
+sI119
+S'    return (\'<?xml version="1.0" encoding="%s"?>\' % encoding) + str(xml_rec(value, key, quote))'
+p194
+sI120
+S''
+sI121
+S''
+sI122
+S'def json(value, default=custom_json, indent=None):'
+p195
+sI123
+S'    value = json_parser.dumps(value, default=default, sort_keys=True, indent=indent)'
+p196
+sI124
+S'    # replace JavaScript incompatible spacing'
+p197
+sI125
+S'    # http://timelessrepo.com/json-isnt-a-javascript-subset'
+p198
+sI126
+S'    # PY3 FIXME'
+p199
+sI127
+S"    # return value.replace(ur'\\u2028', '\\\\u2028').replace(ur'\\2029', '\\\\u2029')"
+p200
+ssg93
+S"(value={'app': 'Fitters', 'controller': None, 'data': '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 'edit_controller': None, 'editor_settings': {'closetag': 'true', 'codefolding': 'false', 'editor': 'default', 'highlightline': 'true', 'indentwithtabs': 'false', 'linenumbers': 'true', 'tabwidth': '4', 'theme': 'web2py'}, 'editviewlinks': None, 'file_hash': 'c81d4b2cd060d5d39367cb31d15412de', 'filename': 'Fitters/static/original250px.png', 'filetype': 'html', 'force': False, ...}, default=<function custom_json>, indent=None)"
+p201
+sg95
+g175
+sa(dp202
+g72
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py'
+p203
+sg74
+(dp204
+S'obj'
+p205
+S"{'app': 'Fitters', 'controller': None, 'data': '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 'edit_controller': None, 'editor_settings': {'closetag': 'true', 'codefolding': 'false', 'editor': 'default', 'highlightline': 'true', 'indentwithtabs': 'false', 'linenumbers': 'true', 'tabwidth': '4', 'theme': 'web2py'}, 'editviewlinks': None, 'file_hash': 'c81d4b2cd060d5d39367cb31d15412de', 'filename': 'Fitters/static/original250px.png', 'filetype': 'html', 'force': False, ...}"
+p206
+sS'sort_keys'
+p207
+g186
+sS'kw'
+p208
+g21
+sS').encode'
+p209
+g117
+ssg80
+I250
+sg81
+(dp210
+I245
+S'        cls = JSONEncoder'
+p211
+sI246
+S'    return cls('
+p212
+sI247
+S'        skipkeys=skipkeys, ensure_ascii=ensure_ascii,'
+p213
+sI248
+S'        check_circular=check_circular, allow_nan=allow_nan, indent=indent,'
+p214
+sI249
+S'        separators=separators, encoding=encoding, default=default,'
+p215
+sI250
+S'        sort_keys=sort_keys, **kw).encode(obj)'
+p216
+sI251
+S''
+sI252
+S''
+sI253
+S'_default_decoder = JSONDecoder(encoding=None, object_hook=None,'
+p217
+sI254
+S'                               object_pairs_hook=None)'
+p218
+ssg93
+S"(obj={'app': 'Fitters', 'controller': None, 'data': '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 'edit_controller': None, 'editor_settings': {'closetag': 'true', 'codefolding': 'false', 'editor': 'default', 'highlightline': 'true', 'indentwithtabs': 'false', 'linenumbers': 'true', 'tabwidth': '4', 'theme': 'web2py'}, 'editviewlinks': None, 'file_hash': 'c81d4b2cd060d5d39367cb31d15412de', 'filename': 'Fitters/static/original250px.png', 'filetype': 'html', 'force': False, ...}, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=<class 'json.encoder.JSONEncoder'>, indent=None, separators=None, encoding='utf-8', default=<function custom_json>, sort_keys=True, **kw={})"
+p219
+sg95
+S'dumps'
+p220
+sa(dp221
+g72
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/encoder.py'
+p222
+sg74
+(dp223
+S'chunks'
+p224
+S'<generator object _iterencode>'
+p225
+sS'builtinlist'
+p226
+S"<type 'list'>"
+p227
+ssg80
+I209
+sg81
+(dp228
+I204
+S"        # This doesn't pass the iterator directly to ''.join() because the"
+p229
+sI205
+S"        # exceptions aren't as detailed.  The list call should be roughly"
+p230
+sI206
+S"        # equivalent to the PySequence_Fast that ''.join() would do."
+p231
+sI207
+S'        chunks = self.iterencode(o, _one_shot=True)'
+p232
+sI208
+S'        if not isinstance(chunks, (list, tuple)):'
+p233
+sI209
+S'            chunks = list(chunks)'
+p234
+sI210
+S"        return ''.join(chunks)"
+p235
+sI211
+S''
+sI212
+S'    def iterencode(self, o, _one_shot=False):'
+p236
+sI213
+S'        """Encode the given object and yield each string'
+p237
+ssg93
+S"(self=<json.encoder.JSONEncoder object>, o={'app': 'Fitters', 'controller': None, 'data': '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 'edit_controller': None, 'editor_settings': {'closetag': 'true', 'codefolding': 'false', 'editor': 'default', 'highlightline': 'true', 'indentwithtabs': 'false', 'linenumbers': 'true', 'tabwidth': '4', 'theme': 'web2py'}, 'editviewlinks': None, 'file_hash': 'c81d4b2cd060d5d39367cb31d15412de', 'filename': 'Fitters/static/original250px.png', 'filetype': 'html', 'force': False, ...})"
+p238
+sg95
+S'encode'
+p239
+sa(dp240
+g72
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/encoder.py'
+p241
+sg74
+(dp242
+S'_current_indent_level'
+p243
+S'0'
+sS'chunk'
+p244
+S"': '"
+p245
+sS'o'
+S"{'app': 'Fitters', 'controller': None, 'data': '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 'edit_controller': None, 'editor_settings': {'closetag': 'true', 'codefolding': 'false', 'editor': 'default', 'highlightline': 'true', 'indentwithtabs': 'false', 'linenumbers': 'true', 'tabwidth': '4', 'theme': 'web2py'}, 'editviewlinks': None, 'file_hash': 'c81d4b2cd060d5d39367cb31d15412de', 'filename': 'Fitters/static/original250px.png', 'filetype': 'html', 'force': False, ...}"
+p246
+sS'_iterencode_dict'
+p247
+S'<function _iterencode_dict>'
+p248
+ssg80
+I434
+sg81
+(dp249
+I429
+S'            yield _floatstr(o)'
+p250
+sI430
+S'        elif isinstance(o, (list, tuple)):'
+p251
+sI431
+S'            for chunk in _iterencode_list(o, _current_indent_level):'
+p252
+sI432
+S'                yield chunk'
+p253
+sI433
+S'        elif isinstance(o, dict):'
+p254
+sI434
+S'            for chunk in _iterencode_dict(o, _current_indent_level):'
+p255
+sI435
+S'                yield chunk'
+p256
+sI436
+S'        else:'
+p257
+sI437
+S'            if markers is not None:'
+p258
+sI438
+S'                markerid = id(o)'
+p259
+ssg93
+S"(o={'app': 'Fitters', 'controller': None, 'data': '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 'edit_controller': None, 'editor_settings': {'closetag': 'true', 'codefolding': 'false', 'editor': 'default', 'highlightline': 'true', 'indentwithtabs': 'false', 'linenumbers': 'true', 'tabwidth': '4', 'theme': 'web2py'}, 'editviewlinks': None, 'file_hash': 'c81d4b2cd060d5d39367cb31d15412de', 'filename': 'Fitters/static/original250px.png', 'filetype': 'html', 'force': False, ...}, _current_indent_level=0)"
+p260
+sg95
+S'_iterencode'
+p261
+sa(dp262
+g72
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/encoder.py'
+p263
+sg74
+(dp264
+S'_encoder'
+p265
+S'<built-in function encode_basestring_ascii>'
+p266
+sS'value'
+p267
+S"'\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82'"
+p268
+ssg80
+I390
+sg81
+(dp269
+I385
+S'            else:'
+p270
+sI386
+S'                yield item_separator'
+p271
+sI387
+S'            yield _encoder(key)'
+p272
+sI388
+S'            yield _key_separator'
+p273
+sI389
+S'            if isinstance(value, basestring):'
+p274
+sI390
+S'                yield _encoder(value)'
+p275
+sI391
+S'            elif value is None:'
+p276
+sI392
+S"                yield 'null'"
+p277
+sI393
+S'            elif value is True:'
+p278
+sI394
+S"                yield 'true'"
+p279
+ssg93
+S"(dct={'app': 'Fitters', 'controller': None, 'data': '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 'edit_controller': None, 'editor_settings': {'closetag': 'true', 'codefolding': 'false', 'editor': 'default', 'highlightline': 'true', 'indentwithtabs': 'false', 'linenumbers': 'true', 'tabwidth': '4', 'theme': 'web2py'}, 'editviewlinks': None, 'file_hash': 'c81d4b2cd060d5d39367cb31d15412de', 'filename': 'Fitters/static/original250px.png', 'filetype': 'html', 'force': False, ...}, _current_indent_level=0)"
+p280
+sg95
+S'_iterencode_dict'
+p281
+sasS'pyver'
+p282
+S'Python 2.7.10: /usr/bin/python (prefix: /System/Library/Frameworks/Python.framework/Versions/2.7)'
+p283
+sS'session'
+p284
+g67
+(S's\x92\x04\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">authorized</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">check_version</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">hmac_key</td><td style="vertical-align:top;">:</td><td><div>efa2dfb3-7daf-41c3-8869-60a0dfc657e6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_mobile</td><td style="vertical-align:top;">:</td><td><div>auto</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_time</td><td style="vertical-align:top;">:</td><td><div>1531481216.07392</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">pam_user</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">token</td><td style="vertical-align:top;">:</td><td><div>69971035-fc74-47ab-9d78-0912e664caaf</div></td></tr></table></div>'
+tRp285
+sS'etype'
+p286
+S"<type 'exceptions.UnicodeDecodeError'>"
+p287
+sS'date'
+p288
+S'Fri Jul 13 16:26:56 2018'
+p289
+sS'response'
+p290
+g67
+(S's;!\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x105fdc960&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-116b6d37-5d7f-4ce9-b491-ff442f8fd5c1<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>/admin/static/_2.15.2/plugin_multiselect/jquery.multi-select.js</div></td></tr><tr><td><div>/admin/static/_2.15.2/plugin_multiselect/multi-select.css</div></td></tr><tr><td><div>/admin/static/_2.15.2/plugin_multiselect/start.js</div></td></tr><tr><td><div>/admin/static/_2.15.2/plugin_statebutton/js/bootstrap-switch.js</div></td></tr><tr><td><div>/admin/static/_2.15.2/plugin_statebutton/css/bootstrap-switch.css</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">form_label_separator</td><td style="vertical-align:top;">:</td><td><div>: </div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">formstyle</td><td style="vertical-align:top;">:</td><td><div>table3cols</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>*</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">Content-Type</td><td style="vertical-align:top;">:</td><td><div>application/json</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Site</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/site</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Edit</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/design/Fitters</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>About</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/about/Fitters</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Errors</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/errors/Fitters</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Versioning</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/mercurial/commit/Fitters</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Help</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/examples/default/documentation</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Logout</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/logout</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Debug</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/debug/interact</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^default/\\w+\\.py$</div></td></tr><tr><td><div>^default/edit/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_admin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;/Users/asad/Documents/workspace/web2py/applications/admin/sessions/127.0.0.1-116b6d37-5d7f-4ce9-b491-ff442f8fd5c1&#x27;, mode &#x27;rb+&#x27; at 0x10d343f60&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/Users/asad/Documents/workspace/web2py/applications/admin/sessions/127.0.0.1-116b6d37-5d7f-4ce9-b491-ff442f8fd5c1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>03b419e084b3ab0c93611434b7b6b61f</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-116b6d37-5d7f-4ce9-b491-ff442f8fd5c1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_admin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>admin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">static_version</td><td style="vertical-align:top;">:</td><td><div>2.15.2</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">static_version_urls</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div>admin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>edit Fitters/static/original250px.png</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>default/edit.html</div></td></tr></table></div>'
+tRp291
+sS'locals'
+p292
+(dp293
+S'_encoder'
+p294
+S'<built-in function encode_basestring_ascii>'
+p295
+sS'_key_separator'
+p296
+S"': '"
+p297
+sS'int'
+p298
+S"<type 'int'>"
+p299
+sS'float'
+p300
+S"<type 'float'>"
+p301
+sS'_indent'
+p302
+S'None'
+p303
+sS'_floatstr'
+p304
+S'<function floatstr>'
+p305
+sS'long'
+p306
+S"<type 'long'>"
+p307
+sS'isinstance'
+p308
+S'<built-in function isinstance>'
+p309
+sS'id'
+p310
+S'<built-in function id>'
+p311
+sS'_iterencode_list'
+p312
+S'<function _iterencode_list>'
+p313
+sS'basestring'
+p314
+S"<type 'basestring'>"
+p315
+sS'_item_separator'
+p316
+S"', '"
+p317
+sS'newline_indent'
+p318
+S'None'
+p319
+sS'markers'
+p320
+S"{4522451304: {'app': 'Fitters', 'controller': None, 'data': '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 'edit_controller': None, 'editor_settings': {'closetag': 'true', 'codefolding': 'false', 'editor': 'default', 'highlightline': 'true', 'indentwithtabs': 'false', 'linenumbers': 'true', 'tabwidth': '4', 'theme': 'web2py'}, 'editviewlinks': None, 'file_hash': 'c81d4b2cd060d5d39367cb31d15412de', 'filename': 'Fitters/static/original250px.png', 'filetype': 'html', 'force': False, ...}}"
+p321
+sS'_sort_keys'
+p322
+g186
+sS'item_separator'
+p323
+S"', '"
+p324
+sS'dict'
+p325
+S"<type 'dict'>"
+p326
+sS'markerid'
+p327
+S'4522451304'
+p328
+sg281
+S'<function _iterencode_dict>'
+p329
+sS'_skipkeys'
+p330
+S'False'
+p331
+sS'ValueError'
+p332
+S"<type 'exceptions.ValueError'>"
+p333
+sS'tuple'
+p334
+S"<type 'tuple'>"
+p335
+sS'key'
+p336
+S"'data'"
+p337
+sS'dct'
+p338
+S"{'app': 'Fitters', 'controller': None, 'data': '\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82', 'edit_controller': None, 'editor_settings': {'closetag': 'true', 'codefolding': 'false', 'editor': 'default', 'highlightline': 'true', 'indentwithtabs': 'false', 'linenumbers': 'true', 'tabwidth': '4', 'theme': 'web2py'}, 'editviewlinks': None, 'file_hash': 'c81d4b2cd060d5d39367cb31d15412de', 'filename': 'Fitters/static/original250px.png', 'filetype': 'html', 'force': False, ...}"
+p339
+sS'items'
+p340
+S'[(\'app\', \'Fitters\'), (\'controller\', None), (\'data\', \'\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82\'), (\'edit_controller\', None), (\'editor_settings\', {\'closetag\': \'true\', \'codefolding\': \'false\', \'editor\': \'default\', \'highlightline\': \'true\', \'indentwithtabs\': \'false\', \'linenumbers\': \'true\', \'tabwidth\': \'4\', \'theme\': \'web2py\'}), (\'editviewlinks\', None), (\'file_hash\', \'c81d4b2cd060d5d39367cb31d15412de\'), (\'filename\', \'Fitters/static/original250px.png\'), (\'filetype\', \'html\'), (\'force\', False), (\'functions\', None), (\'id\', \'fittersstaticoriginal250pxpng\'), (\'lineno\', 1), (\'plain_html\', \'\\n\\n<form action="/admin/default/edit/Fitters/stat...previous version.\\n    </div>\\n    <br/>\\n  </form>\\n\'), (\'realfilename\', \'original250px.png\'), (\'saved_on\', \'Fri Jul 13 16:26:44 2018\'), (\'view_link\', None)]'
+p341
+sS'list'
+p342
+S"<type 'list'>"
+p343
+sS'value'
+p344
+S"'\\x89PNG\\r\\n\\x1a\\n\\x00\\x00\\x00\\rIHDR\\x00\\x00\\x00\\xfa\\x00\\x00\\x00\\xb1\\x08\\x06\\x00\\x00\\x00\\xeds\\xa0\\x92\\x00\\x00\\x00\\x19tEXtSoftwar...\\x00@\\xe8\\x00\\x00\\x08\\x1d\\x00\\x00\\xa1\\x03\\x00 t\\x00\\x00\\x84\\x0e\\x00\\x80\\xd0\\x01\\x00%\\xf37\\x01\\x06\\x00\\xb7\\xa1\\x10\\x10B\\xe6\\x95\\x97\\x00\\x00\\x00\\x00IEND\\xaeB`\\x82'"
+p345
+sS'str'
+p346
+S"<type 'str'>"
+p347
+sS'_current_indent_level'
+p348
+S'0'
+sg261
+S'<function _iterencode>'
+p349
+sS'first'
+p350
+g331
+sssS'traceback'
+p351
+S'Traceback (most recent call last):\n  File "/Users/asad/Documents/workspace/web2py/gluon/restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "/Users/asad/Documents/workspace/web2py/applications/admin/controllers/default.py", line 2006, in <module>\n  File "/Users/asad/Documents/workspace/web2py/gluon/globals.py", line 409, in <lambda>\n    self._caller = lambda f: f()\n  File "/Users/asad/Documents/workspace/web2py/applications/admin/controllers/default.py", line 841, in edit\n    return response.json(file_details)\n  File "/Users/asad/Documents/workspace/web2py/gluon/globals.py", line 651, in json\n    return json(data, default=default or custom_json, indent=indent)\n  File "/Users/asad/Documents/workspace/web2py/gluon/serializers.py", line 123, in json\n    value = json_parser.dumps(value, default=default, sort_keys=True, indent=indent)\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py", line 250, in dumps\n    sort_keys=sort_keys, **kw).encode(obj)\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/encoder.py", line 209, in encode\n    chunks = list(chunks)\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/encoder.py", line 434, in _iterencode\n    for chunk in _iterencode_dict(o, _current_indent_level):\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/encoder.py", line 390, in _iterencode_dict\n    yield _encoder(value)\nUnicodeDecodeError: \'utf8\' codec can\'t decode byte 0x89 in position 0: invalid start byte\n'
+p352
+s.

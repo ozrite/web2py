@@ -1,0 +1,9 @@
+{{extend 'layout.html'}}
+
+{{=msg}}
+
+{{if yargs == 'men':}}
+{{include 'default/subview1.html'}}
+{{elif yargs == 'women' :}}
+{{include 'default/subview2.html'}}
+{{pass}}
