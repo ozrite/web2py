@@ -25,8 +25,9 @@
     <link rel="stylesheet" href="{{=URL('static','ionicons/css/ionicons.min.css')}}">
     <!-- main css -->
     <link rel="stylesheet" href="{{=URL('static','css/style.css')}}" >
-    <!-- including fitters styles -->
-    <!-- <link rel="stylesheet" href="{{=URL('static','css/fitters.css')}}"/> -->
+    <!-- image gallery includes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+
     <link rel="shortcut icon" href="{{=URL('static','images/favi_red.png')}}" type="image/x-icon">
     <link rel="apple-touch-icon" href="{{=URL('static','images/favi_red.png')}}">
     <!-- All JavaScript at the bottom, except for Modernizr which enables
@@ -61,7 +62,7 @@
         <!-- box header -->
         <header class="box-header">
             <div class="box-logo">
-                <a href="{{=URL('default', 'index')}}"><img src="{{=URL('static','images/new_logo2.png')}}" alt="Fitters Logo" ></a>
+                <a href="{{=URL('default', 'index')}}"><img src="{{=URL('static','images/original250px1.png')}}" alt="Fitters Logo" ></a>
                 <!-- style="width:5%;" -->
                 <!-- {{=response.logo or ''}} -->
             </div>
@@ -75,22 +76,71 @@
 
         <!-- Navbar ======================================= -->
         <!-- nav -->
+
         <nav>
             <ul class="box-primary-nav">
                 <li class="box-label">MENU</li>
 
-                <li><a href="{{=URL('default', 'index')}}">Home</a> <i class="ion-ios-circle-filled color"></i></li>
-                <li><a href="{{=URL('default', 'men')}}">Men</a></li>
-                <li><a href="{{=URL('default', 'women')}}">Women</a></li>
-                <li><a href="{{=URL('default', 'mini')}}">Mini</a></li>
-                <li><a href="{{=URL('default', 'unstitched')}}">Unstitched</a></li>
-                <li><a href="{{=URL('default', 'accessories')}}">Accessories</a></li>
-                <li><a href="{{=URL('default', 'business')}}">Business</a></li>
-                <li><a href="{{=URL('default', 'overseas')}}">Overseas</a></li>
-                <li><a href="{{=URL('default', 'prices')}}">Prices</a></li>
-                <li><a href="{{=URL('default', 'offers')}}">Offers</a></li>
-                <li><a href="{{=URL('default', 'quickorder')}}">Quick Order</a></li>
-                <li><a href="{{=URL('default', 'videos')}}">Videos</a></li>
+                <li><a href="{{=URL('default', 'index')}}">Home</a>
+                  {{ if page == 'home':}}
+                   <i class="ion-ios-circle-filled color"></i>
+                  {{pass}}
+                 </li>
+                <li><a href="{{=URL('default', 'men')}}">Men</a>
+                  {{ if page == 'men':}}
+                   <i class="ion-ios-circle-filled color"></i>
+                  {{pass}}
+                </li>
+                <li><a href="{{=URL('default', 'women')}}">Women</a>
+                  {{ if page == 'women':}}
+                   <i class="ion-ios-circle-filled color"></i>
+                  {{pass}}
+                </li>
+                <li><a href="{{=URL('default', 'mini')}}">Mini</a>
+                  {{ if page == 'mini':}}
+                   <i class="ion-ios-circle-filled color"></i>
+                  {{pass}}
+                </li>
+                <li><a href="{{=URL('default', 'unstitched')}}">Unstitched</a>
+                  {{ if page == 'unstitched':}}
+                   <i class="ion-ios-circle-filled color"></i>
+                  {{pass}}
+                </li>
+                <li><a href="{{=URL('default', 'accessories')}}">Accessories</a>
+                  {{ if page == 'accessories':}}
+                   <i class="ion-ios-circle-filled color"></i>
+                  {{pass}}
+                </li>
+                <li><a href="{{=URL('default', 'business')}}">Business</a>
+                  {{ if page == 'business':}}
+                   <i class="ion-ios-circle-filled color"></i>
+                  {{pass}}
+                </li>
+                <li><a href="{{=URL('default', 'overseas')}}">Overseas</a>
+                  {{ if page == 'overseas':}}
+                   <i class="ion-ios-circle-filled color"></i>
+                  {{pass}}
+                </li>
+                <li><a href="{{=URL('default', 'prices')}}">Prices</a>
+                  {{ if page == 'prices':}}
+                   <i class="ion-ios-circle-filled color"></i>
+                  {{pass}}
+                </li>
+                <li><a href="{{=URL('default', 'offers')}}">Offers</a>
+                  {{ if page == 'offers':}}
+                   <i class="ion-ios-circle-filled color"></i>
+                  {{pass}}
+                </li>
+                <li><a href="{{=URL('default', 'quickorder')}}">Quick Order</a>
+                  {{ if page == 'quickorder':}}
+                   <i class="ion-ios-circle-filled color"></i>
+                  {{pass}}
+                </li>
+                <li><a href="{{=URL('default', 'videos')}}">Videos</a>
+                  {{ if page == 'videos':}}
+                   <i class="ion-ios-circle-filled color"></i>
+                  {{pass}}
+                </li>
 
                 <!-- <li class="box-label">Follow us</li>
 
@@ -133,7 +183,7 @@
                     <h5 class="logo"><a href="tel:(+92) 3111-222-745"> (+92) 3111-222-745 </a></h2>
                 </div> -->
                 <div class="col-sm-2">
-                    <h5><i class="ion-android-call"></i> Phone</h5>
+                    <h5><i class="ion-android-call"></i> Call Us</h5>
                     <ul>
                         <!-- <li><i class="ion-android-call"></i>.. Call</li> -->
                         <li><a href="tel:(+92) 3111-222-745"> (+92) 3111-222-745 </a></li>
@@ -200,6 +250,12 @@
     <script src="{{=URL('static','js/isotope.pkgd.min.js')}}"></script>
     <!--  custom script -->
     <script src="{{=URL('static','js/custom.js')}}"></script>
+
+    <!-- image gallery script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
 
     {{block page_js}}{{end page_js}}
     {{if response.google_analytics_id:}}
