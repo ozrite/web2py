@@ -1244,6 +1244,14 @@ textarea:focus {
 
 /* Responsive media queries
 ==================================================*/
+@media (max-width: 1200px) {
+
+    .box-intro-graphic  {
+
+        margin-top: -20.5%;
+
+    }
+}
 
 @media (max-width: 991px) {
     .portfolio .categories-grid span {
@@ -1327,94 +1335,150 @@ textarea:focus {
         line-height: 30px;
     }
     .box-intro-graphic  {
-
-        margin-top: -45.5%;
-
+        margin-top: -55.5%;
     }
 }
 
 /* video gallery/page styling */
 /* ================================================== */
 .pb-video-container {
-        margin-top: 4%;
-        padding-top: 20px;
-        /* background: #bdc3c7; */
-        /* font-family: Lato; */
+    margin-top: 4%;
+    padding-top: 20px;
+    /* background: #bdc3c7; */
+    /* font-family: Lato; */
+}
+
+.pb-video {
+    /* border: 1px solid #e6e6e6; */
+    padding: 5px;
+}
+
+.pb-video:hover {
+    /* background: #2c3e50; */
+    background: black;
+}
+
+.pb-video-frame {
+    transition: width 0.5s, height 0.5s;
+}
+
+    .pb-video-frame:hover {
+        height: 300px;
     }
 
-    .pb-video {
-        /* border: 1px solid #e6e6e6; */
-        padding: 5px;
-    }
-
-        .pb-video:hover {
-            /* background: #2c3e50; */
-            background: black;
-        }
-
-    .pb-video-frame {
-        transition: width 0.5s, height 0.5s;
-    }
-
-        .pb-video-frame:hover {
-            height: 300px;
-        }
-
-    .pb-row {
-        margin-bottom: 10px;
-    }
+.pb-row {
+    margin-bottom: 10px;
+}
 
     /* image gallery styling */
     /* ================================================== */
-    .gallery-container h1 {
-        text-align: center;
-        margin-top: 70px;
-        font-family: 'Droid Sans', sans-serif;
-        font-weight: bold;
-        color: #58595a;
-    }
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    color: #58595a;
+}
 
-    .gallery-container p.page-description {
-        text-align: center;
-        margin: 30px auto;
-        font-size: 18px;
-        color: #85878c;
-    }
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
 
-    /* Styles for the gallery */
+/* Styles for the gallery */
 
-    .tz-gallery {
-        padding: 40px;
-    }
+.tz-gallery {
+    padding: 40px;
+}
 
-    .tz-gallery .thumbnail {
-        padding: 0;
-        margin-bottom: 30px;
-        border: none;
-    }
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    border: none;
+}
 
-    .tz-gallery img {
-        border-radius: 2px;
-    }
+.tz-gallery img {
+    border-radius: 2px;
+}
 
-    .tz-gallery .caption{
-        padding: 26px 30px;
-        text-align: center;
-        background-color: white;
-    }
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+    background-color: white;
+}
 
-    .tz-gallery .caption h3 {
-        font-size: 14px;
-        font-weight: bold;
-        margin-top: 0;
-    }
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
 
-    .tz-gallery .caption p {
-        font-size: 12px;
-        color: #7b7d7d;
-        margin: 0;
-    }
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
 
-    .baguetteBox-button {
-        background-color: transparent !important;
-    }
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+    /* About page styling */
+    /* ================================================== */
+
+.about-cover-div{
+  /* border: 1px solid yellow; */
+  /* height: 20vh; */
+  /* text-align: center; */
+  /* margin-top: 15%; */
+  margin-bottom: 10%;
+}
+
+.content-row{
+  /* border: 1px solid green; */
+  /* height: 20vh; */
+  background-color: #f5f5f5;
+}
+
+.content-div{
+  /* border: 1px solid red; */
+  /* height: 20vh; */
+  padding: 4%;
+}
+
+.about-title{
+  text-align: center;
+}
+
+.about-spacer{
+  margin-bottom: 5%;
+}
+
+.image-transparency{
+/* width:150px;
+height:150px; */
+opacity: 0.7;
+}
+
+hr.style18 {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  margin-top: 6%;
+  margin-bottom: 3%;
+}
+
+hr.style18:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
