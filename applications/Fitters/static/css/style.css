@@ -1017,15 +1017,41 @@ footer img {
 
 /* About page
 ==================================================*/
+.business-top{
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/business2.jpg);
+  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/business3.jpg);
+  background-position: bottom;
+}
+.overseas-top{
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/Overseas.jpg);
+  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/overseas.jpg);
+  background-position: top;
+}
+.prices-top{
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/prices-head2.jpg);
+  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/prices-head2.jpg);
+  background-position: bottom;
+}
+.offers-top{
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/special-offers.jpg);
+  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/special-offers.jpg);
+  background-position: top;
+}
+.contact-top{
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/contact-top.jpg);
+  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/contact-top.jpg);
+  /* background-position: 100px 0px 100px 0px; */
+  background-position: 0px 500px;
+}
 
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/01.jpg);
+    /* background: url(../images/business-final2.jpg);
+    /* background: lightgrey; */
     background-size: cover;
     background-attachment: fixed;
-    background-position: center center;
+    /* background-position: center center; */
     text-align: center;
 }
 
@@ -1086,6 +1112,7 @@ footer img {
 
 .service-box {
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .service-box h3 {
@@ -1314,7 +1341,7 @@ textarea:focus {
         font-size: 12px;
     }
     .main-container {
-        padding: 50px 0;
+        /* padding: 50px 0; */
     }
     .box-intro-graphic  {
 
