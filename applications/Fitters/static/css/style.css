@@ -97,7 +97,7 @@ h3 {
 }
 
 h5 {
-    color: #ffbf00;
+    color: #393939;
 }
 
 
@@ -982,7 +982,9 @@ footer img {
     right: 10px;
     text-align: center;
     color: #fff;
-    background: rgba(255, 191, 0, 0.8);
+    /* background: rgba(255, 191, 0, 0.8); */
+    /* background: #d84b6b; */
+    background: rgb(216,75,107, 0.8);
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -1018,12 +1020,12 @@ footer img {
 /* About page
 ==================================================*/
 .business-top{
-  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/business2.jpg);
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/business3.jpg);
   background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/business3.jpg);
   background-position: bottom;
 }
 .overseas-top{
-  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/Overseas.jpg);
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/overseas.jpg);
   background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/overseas.jpg);
   background-position: top;
 }
@@ -1038,10 +1040,22 @@ footer img {
   background-position: top;
 }
 .contact-top{
-  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/contact-top.jpg);
-  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/contact-top.jpg);
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/contact-top1.jpg);
+  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/contact-top1.jpg);
   /* background-position: 100px 0px 100px 0px; */
-  background-position: 0px 500px;
+  background-position: -40px 500px;
+}
+.jobs-top{
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/jobs-top1.jpg);
+  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/jobs-top1.jpg);
+
+  background-position: center;
+}
+.faq-top{
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/faq-top.png);
+  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/faq-top.png);
+
+  background-position: 0px -100px;
 }
 
 .top-bar {
@@ -1251,6 +1265,14 @@ textarea:focus {
     /* background: #F5B700; */
     background: #d84b6b;
     color: #fff;
+}
+
+.contact-color {
+  color: #aaa;
+}
+
+a:hover.contact-color {
+  color: grey;
 }
 
 
