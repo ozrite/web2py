@@ -1019,6 +1019,12 @@ footer img {
 
 /* About page
 ==================================================*/
+.about-top{
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/about-top.jpg);
+  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/about-top.jpg);
+
+  background-position: bottom;
+}
 .business-top{
   background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/business3.jpg);
   background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/business3.jpg);
@@ -1040,8 +1046,8 @@ footer img {
   background-position: top;
 }
 .contact-top{
-  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/contact-top1.jpg);
-  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/contact-top1.jpg);
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/contact-top.jpg);
+  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/contact-top.jpg);
   /* background-position: 100px 0px 100px 0px; */
   background-position: -40px 500px;
 }
@@ -1054,6 +1060,12 @@ footer img {
 .faq-top{
   background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/faq-top.png);
   background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/faq-top.png);
+
+  background-position: 0px -100px;
+}
+.policy-top{
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/policy-top.jpg);
+  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../images/policy-top.jpg);
 
   background-position: 0px -100px;
 }
@@ -1273,6 +1285,7 @@ textarea:focus {
 
 a:hover.contact-color {
   color: grey;
+  text-decoration: none;
 }
 
 
